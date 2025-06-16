@@ -48,29 +48,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .description-section,
-  .description-text,
-  .description-image,
-  .consultation-button {
-    max-width: 95vw;
+  .description-section {
+    overflow-x: hidden;
+    max-width: 100%;
   }
-  .description-text {
+  .description-text,
+  .consultation-button {
     max-width: 100%;
     flex-wrap: wrap;
   }
 
   .description-image {
     position: relative;
+    max-width: 100%;
     top: -540px;
     right: 0px;
   }
 
   .description-image img {
     max-width: 100%;
-  }
-  .description-text h1 {
-    font-size: 40px;
-    font-weight: bolder;
   }
 
   .description-text p {
@@ -79,5 +75,11 @@
   }
 
   .consultation-button {
+    width: 100%;
+  }
+
+  .description-section {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
