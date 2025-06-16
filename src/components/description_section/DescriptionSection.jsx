@@ -13,7 +13,6 @@ export default function DescriptionSection() {
         </p>
         <button className="consultation-button">Book a consultation</button>
       </div>
-
       <div className="description-image">
         <img src={marketingImage} alt="Digital Marketing" />
       </div>
