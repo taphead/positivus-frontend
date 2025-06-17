@@ -72,3 +72,45 @@
 .services-card.dark .services-card-learn p {
   color: #f3f3f3;
 }
+
+@media (max-width: 768px) {
+  .services-card {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .services-card-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 5px;
+  }
+
+  .services-card-heading {
+    width: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .services-card-right img {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-right: 5px;
+  }
+
+  .services-card-learn p {
+    display: none;
+  }
+  .services-card-learn img {
+    width: 30px;
+    height: 30px;
+    padding-left: 50px;
+  }
+
+  .services-card-left {
+    justify-content: space-around;
+  }
+}
