@@ -1,0 +1,21 @@
+.services-card-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.services-card-top-row,
+.services-card-middle-row,
+.services-card-bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .services-card-top-row,
+  .services-card-middle-row,
+  .services-card-bottom-row {
+    flex-direction: column;
+  }
+}

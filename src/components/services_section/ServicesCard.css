@@ -1,0 +1,74 @@
+.services-card {
+  border-radius: 45px;
+  border-width: 1px;
+  border: 1px solid #191a23;
+  box-shadow: 0px 5px 0px 0px #191a23;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.services-card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services-card-heading {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 200px;
+  text-align: center;
+}
+
+.services-card-learn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.services-card-learn p {
+  font-family: Space Grotesk;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.services-card-learn img {
+  width: 40px;
+  height: 40px;
+}
+
+.services-card.light {
+  background-color: #f3f3f3;
+}
+
+.services-card.light .services-card-heading {
+  background-color: #b9ff66;
+}
+
+.services-card.green {
+  background-color: #b9ff66;
+}
+
+.services-card.green .services-card-heading {
+  background-color: #f3f3f3;
+}
+
+.services-card.dark {
+  background-color: #191a23;
+}
+
+.services-card.dark .services-card-heading {
+  background-color: #f3f3f3;
+}
+
+.services-card.dark .services-card-learn p {
+  color: #f3f3f3;
+}
