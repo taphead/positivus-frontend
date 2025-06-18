@@ -6,6 +6,7 @@ import CompanySection from "./components/company_section/CompanySection";
 import ServicesCardSection from "./components/services_section/ServicesCardSection";
 import ProposalSection from "./components/proposal_section/ProposalSection";
 import CaseStudiesSection from "./components/case_studies_section/CaseStudiesSection";
+import WorkProcessSection from "./components/work_process_section/WorkProcessSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <ServicesCardSection />
         <ProposalSection />
         <CaseStudiesSection />
+        <WorkProcessSection />
       </Container>
     </>
   );

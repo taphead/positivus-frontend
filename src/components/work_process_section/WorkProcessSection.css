@@ -1,0 +1,14 @@
+.work-process-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .work-process-section {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+}
