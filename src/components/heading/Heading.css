@@ -1,44 +1,43 @@
-.services-section {
+.heading {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
-  width: 68%;
   margin-top: 20px;
 }
 
-.services-section span {
+.heading span {
   background-color: #b9ff66;
   font-family: Space Grotesk;
   font-weight: 500;
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
-  width: 178px;
-  height: 51px;
+  width: auto;
+  height: auto;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 5px;
+  text-align: center;
 }
 
-.services-section p {
+.heading p {
   margin: 0;
   font-family: Space Grotesk;
   font-weight: 400;
   font-size: 18px;
+  width: 50%;
 }
 
 @media screen and (max-width: 768px) {
-  .services-section {
+  .heading {
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
 
-  .services-section p {
+  .heading p {
     text-align: center;
+    width: auto;
   }
 }
