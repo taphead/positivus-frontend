@@ -29,9 +29,15 @@
   padding: 20px 35px;
 }
 
+.navbar-links a {
+  padding: 20px;
+}
+
 .navbar-links a:hover,
 .navbar-button:hover {
   cursor: pointer;
+  background-color: #b9ff66;
+  border-radius: 10px;
 }
 
 .navbar-logo {
