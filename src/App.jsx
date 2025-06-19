@@ -7,6 +7,7 @@ import ServicesCardSection from "./components/services_section/ServicesCardSecti
 import ProposalSection from "./components/proposal_section/ProposalSection";
 import CaseStudiesSection from "./components/case_studies_section/CaseStudiesSection";
 import WorkProcessSection from "./components/work_process_section/WorkProcessSection";
+import TeamSection from "./components/team_section/TeamSection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ProposalSection />
         <CaseStudiesSection />
         <WorkProcessSection />
+        <TeamSection />
       </Container>
     </>
   );
