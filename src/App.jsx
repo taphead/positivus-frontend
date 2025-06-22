@@ -9,6 +9,7 @@ import CaseStudiesSection from "./components/case_studies_section/CaseStudiesSec
 import WorkProcessSection from "./components/work_process_section/WorkProcessSection";
 import TeamSection from "./components/team_section/TeamSection";
 import TestimonialSection from "./components/testimonial_section/TestimonialSection";
+import ContactSection from "./components/contact_section/ContactSection";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <WorkProcessSection />
         <TeamSection />
         <TestimonialSection />
+        <ContactSection />
       </Container>
     </>
   );
