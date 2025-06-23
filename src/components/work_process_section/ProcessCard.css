@@ -60,17 +60,20 @@
 
 @media (max-width: 768px) {
   .process-card {
-    padding: 10px;
+    padding: 10px 20px;
     margin: 0;
     max-width: 100%;
   }
 
+  .process-card img {
+    width: 60%;
+  }
   .process-card-left h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .process-card-left p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .process-card-bottom p {

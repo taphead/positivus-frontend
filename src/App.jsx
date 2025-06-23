@@ -10,6 +10,7 @@ import WorkProcessSection from "./components/work_process_section/WorkProcessSec
 import TeamSection from "./components/team_section/TeamSection";
 import TestimonialSection from "./components/testimonial_section/TestimonialSection";
 import ContactSection from "./components/contact_section/ContactSection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <TestimonialSection />
         <ContactSection />
       </Container>
+      {/* <Footer /> */}
     </>
   );
 }

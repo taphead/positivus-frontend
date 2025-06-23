@@ -61,6 +61,9 @@
 @media (max-width: 768px) {
   .proposal-section,
   .proposal-section-left,
+  .proposal-section-left h3,
+  .proposal-section-left p,
+  .proposal-section-left button,
   .proposal-section-right {
     padding: 0;
     margin: 0;
@@ -72,15 +75,21 @@
     margin-top: 30px;
   }
 
-  .proposal-section-left {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap: 0;
+  .proposal-section-left h3 {
+    font-size: 18px;
   }
 
-  .proposal-section-left h3 {
+  .proposal-section-left p {
+    font-size: 12px;
+    padding: 20px 30px;
+  }
+
+  .proposal-section-left {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
   }
 
   .proposal-section-right {
@@ -88,7 +97,7 @@
   }
 
   .proposal-section-left button {
-    width: 200px;
+    width: 80%;
     font-size: 16px;
   }
 }

@@ -97,7 +97,7 @@
   z-index: 999;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .navbar-right {
     display: none;
   }
