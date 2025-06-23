@@ -50,6 +50,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-main-left h4 {
+  font-family: Space Grotesk;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #b9ff66;
+  color: black;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
 }
 
 .footer-main-right {
@@ -102,6 +116,16 @@
   color: black;
 }
 
+.footer-bottom {
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .footer,
   .footer nav,
@@ -131,14 +155,21 @@
   .footer-nav-container img {
     width: 70%;
     height: auto;
+    margin-top: 50px;
   }
 
   .footer-nav-middle ul {
     flex-direction: column;
     gap: 0;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
   }
 
+  .footer-nav-middle a {
+    padding: 0.4rem;
+  }
   .footer-nav-middle li {
     text-decoration: none;
   }
@@ -147,7 +178,7 @@
     display: none;
   }
 
-  /* .footer-main,
+  .footer-main,
   .footer-main-left,
   .footer-main-right {
     padding: 0;
@@ -158,6 +189,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
   }
 
   .footer-main-left {
@@ -166,24 +198,52 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer-main-left h4,
+  .footer-main-left p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-main-left h4 {
+    padding: 5px;
+    margin: 20px 0;
+  }
+
+  .footer-main-left p {
+    padding: 5px;
   }
 
   .footer-main-right {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 90%;
     max-width: 100%;
+    padding-bottom: 20px;
   }
 
   .footer-main-right input {
-    padding: 0;
     margin: 0;
-    width: 120px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
   }
 
   .footer-main-right button {
-    padding: 0;
-    margin: 0;
-    width: 120px;
-  } */
+    padding: 5px;
+    width: 85%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 }

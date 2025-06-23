@@ -39,7 +39,7 @@ export default function Footer() {
           </span>
         </div>
       </nav>
-      {/* <div className="footer-main">
+      <div className="footer-main">
         <div className="footer-main-left">
           <h4>Contact us:</h4>
           <p>Email: info@positivus.com</p>
@@ -53,7 +53,11 @@ export default function Footer() {
           <input type="email" placeholder="Email" />
           <button>Subscribe to news</button>
         </div>
-      </div> */}
+      </div>
+      <div className="footer-bottom">
+        <p>© 2023 Positivus. All Rights Reserved.</p>
+        <a href="">Privacy Policy</a>
+      </div>
     </section>
   );
 }

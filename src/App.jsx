@@ -27,7 +27,7 @@ function App() {
         <TestimonialSection />
         <ContactSection />
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
