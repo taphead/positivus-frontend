@@ -6,6 +6,11 @@
   margin-top: 20px;
 }
 
+.navbar-container a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .menu-icon {
   display: none;
 }

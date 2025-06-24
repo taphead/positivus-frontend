@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="navbar-container">
-        <a className="navbar-logo">
+        <a href="/" className="navbar-logo">
           <img src={navbar_icon} />
           <span>Positivus</span>
         </a>
@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="navbar-right">
           <ul className="navbar-links">
             <li>
-              <a>About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
               <a>Services</a>
